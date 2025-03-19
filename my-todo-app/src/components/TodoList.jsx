@@ -8,8 +8,8 @@ function ToDoList() {
   const [editingTaskId, setEditingTaskId] = useState(null);
   const [editedTaskText, setEditedTaskText] = useState("");
 
-  const API_URL =
-    "https://na3wfpk6gi.execute-api.us-east-1.amazonaws.com/tasks";
+  //https://na3wfpk6gi.execute-api.us-east-1.amazonaws.com/tasks
+  const API_URL = "";
 
   // Fetch all tasks from the backend
   const fetchTasks = async () => {
@@ -28,28 +28,27 @@ function ToDoList() {
     }
   };
 
-   // Fetch a single task by ID - using the URL parameter approach
-   const fetchTaskById = async (taskId) => {
+  // Fetch a single task by ID - using the URL parameter approach
+  const fetchTaskById = async (taskId) => {
     try {
       // Use query parameter instead of path parameter
       const response = await fetch(`${API_URL}/?taskId=${taskId}`);
-      
+
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
-      
+
       const data = await response.json();
-      
+
       // Check if the response is a single object or an array with one item
-      const taskData = Array.isArray(data) && data.length === 1 ? data[0] : data;
-      
+      const taskData =
+        Array.isArray(data) && data.length === 1 ? data[0] : data;
+
       // Update only the specific task in the state
-      setTasks(prevTasks => 
-        prevTasks.map(task => 
-          task.taskId === taskId ? taskData : task
-        )
+      setTasks((prevTasks) =>
+        prevTasks.map((task) => (task.taskId === taskId ? taskData : task))
       );
-      
+
       return taskData;
     } catch (error) {
       console.error(`Error fetching task ${taskId}:`, error);
