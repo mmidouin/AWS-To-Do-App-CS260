@@ -177,4 +177,4 @@ Once your S3 bucket is configured for static hosting, you can access your my-tod
 You have successfully built and deployed my-todo-app on AWS S3.
 
 ---
-Next step --> [Creating a Lambda Function for Todo Tasks Application](AWS-Lambda.md)
+Next step --> [Creating a Lambda Function for Todo Tasks Application]([AWS-Lambda.md]([https://github.com/mmidouin/AWS-Lambda-CS260](https://github.com/mmidouin/AWS-Lambda-CS260/blob/main/README.md))
