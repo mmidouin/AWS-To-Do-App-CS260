@@ -1,6 +1,37 @@
-# My To-Do App
+# My Todo App: AWS Serverless Task Management Solution  
 
-This guide provides step-by-step instructions for setting up and hosting the **my-todo-app** React project on **AWS S3**.  
+## **Application Overview**  
+
+**My Todo App** is a serverless task management application built on AWS infrastructure. It helps users track and manage their daily tasks. Leveraging Amazon Web Services' powerful serverless technologies, the application provides a seamless, scalable, and cost-effective solution for personal productivity.  
+
+---
+
+## **Infrastructure Architecture**  
+
+![AWS Serverless Architecture](ddb-crud.png)  
+
+### **AWS Serverless Architecture Components**  
+
+- **Clients**: End-users accessing the application through web or mobile interfaces  
+- **HTTP API**: Amazon API Gateway managing request routing and API endpoints  
+- **Lambda Function**: AWS Lambda serverless compute service handling application logic  
+- **DynamoDB**: Amazon DynamoDB fully managed NoSQL database for storing task data  
+
+---
+
+## **Key Features**  
+
+✔ **AWS Serverless architecture** with zero server management  
+✔ **Automatic scaling** using AWS elastic services  
+✔ **Pay-per-use** pricing model with AWS cost optimization  
+✔ **High availability and fault tolerance**  
+✔ **Secure data management** following AWS security best practices  
+
+---
+
+## **Deployment Guide: Hosting My Todo App on AWS S3**  
+
+This tutorial walks you through setting up, building, and deploying the **my-todo-app** React project on **AWS S3 bucket**.  
 
 ## Prerequisites
 
@@ -146,3 +177,4 @@ Once your S3 bucket is configured for static hosting, you can access your my-tod
 You have successfully built and deployed my-todo-app on AWS S3.
 
 ---
+Next step --> [Creating a Lambda Function for Todo Tasks Application](AWS-Lambda.md)
