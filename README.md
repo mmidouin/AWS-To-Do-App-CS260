@@ -56,7 +56,9 @@ Before you begin, ensure that you have the following:
      ```bash
      cd /path/to/my-todo-app
      ```
+## Demo Video
 
+[![Demo Video](app-step1-img.png)](https://drive.google.com/file/d/1cZCjPfziNCtaqzoTwoHXgSXNa0n-DhWC/view?usp=sharing)
 ---
 
 ## Step 2: Verify Node.js and npm Installation
