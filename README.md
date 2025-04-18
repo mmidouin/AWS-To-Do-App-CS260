@@ -56,9 +56,12 @@ Before you begin, ensure that you have the following:
      ```bash
      cd /path/to/my-todo-app
      ```
+
+
 ## Demo Video
 
 [![Demo Video](app-step1-img.png)](https://drive.google.com/file/d/1cZCjPfziNCtaqzoTwoHXgSXNa0n-DhWC/view?usp=sharing)
+
 ---
 
 ## Step 2: Verify Node.js and npm Installation
@@ -77,6 +80,11 @@ Before proceeding, check if **Node.js** and **npm** are installed.
 
 If Node.js is not installed, download and install it from the [official website](https://nodejs.org/).
 
+
+## Demo Video
+
+[![Demo Video](app-step2-img.png)](https://drive.google.com/file/d/1EggSLjKD8IDEDiEM5FpZ65dyUX_lv_bj/view?usp=drive_link)
+
 ---
 
 ## Step 3: Install Dependencies
@@ -88,6 +96,11 @@ npm install
 ```
 
 This will download and install all necessary packages for the React project.
+
+
+## Demo Video
+
+[![Demo Video](app-step3-img.png)](https://drive.google.com/file/d/12gGo0eHj5zF6DCp5Pdua0ThybQUdvr_3/view?usp=drive_link)
 
 ---
 
@@ -101,6 +114,11 @@ npm run build
 
 This command will create a `dist/` folder inside the project directory.
 Inside the `dist/` folder, you will find an `index.html` file and an `assets` folder containing static files.
+
+
+## Demo Video
+
+[![Demo Video](app-step4-img.png)](https://drive.google.com/file/d/1J86UCaFvnLeQKUgz7pz4fGu2eVfnlo3Q/view?usp=drive_link)
 
 ---
 
@@ -154,6 +172,11 @@ To allow users to access the hosted website, you need to make the files publicly
 4. Replace `your-bucket-name` with the actual name of your S3 bucket.
 5. Click Save changes.
 
+
+## Demo Video
+
+[![Demo Video](app-step5-img.png)](https://drive.google.com/file/d/1iEtvonA4TmGll5AeNGce6MnFUVjBn5XS/view?usp=sharing)
+
 ---
 
 ## Step 6: Configure API Endpoints
@@ -166,11 +189,21 @@ Once you have configured your API routes and connected your database via AWS Lam
   ```
 - Replace the empty string with your API endpoint.
 - Rebuild the project and redeploy to AWS S3 to ensure the changes take effect
+
+  ## Demo Video
+
+[![Demo Video](app-step6-img.png)]()
+
+
 ---
 
 ## Step 7: Access Your Hosted React App
 
 Once your S3 bucket is configured for static hosting, you can access your my-todo-app via the S3 Bucket Website URL found under Static website hosting settings.
+
+## Demo Video
+
+[![Demo Video](app-step7-img.png)](https://drive.google.com/file/d/16rCHtpv-7NVDRnZdzm9IkwE8czAPAOb_/view?usp=sharing)
 
 ---
 
