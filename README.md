@@ -192,7 +192,7 @@ Once you have configured your API routes and connected your database via AWS Lam
 
   ## Demo Video
 
-[![Demo Video](app-step6-img.png)]()
+[![Demo Video](app-step6-img.png)](https://drive.google.com/file/d/1yX7iM3kPw5Eeq9I4YS4tt0JATbtuQRSQ/view?usp=drive_link)
 
 
 ---
@@ -203,7 +203,7 @@ Once your S3 bucket is configured for static hosting, you can access your my-tod
 
 ## Demo Video
 
-[![Demo Video](app-step7-img.png)](https://drive.google.com/file/d/16rCHtpv-7NVDRnZdzm9IkwE8czAPAOb_/view?usp=sharing)
+[![Demo Video](app-step7-img.png)](https://drive.google.com/file/d/16rCHtpv-7NVDRnZdzm9IkwE8czAPAOb_/view?usp=drive_link)
 
 ---
 
